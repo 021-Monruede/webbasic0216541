@@ -92,7 +92,7 @@ margin-right: 20px;
     padding-bottom: 100px;
   }
   .hero-text-heading{
-    color: #090909;
+    color: #000000;
     text-align: center;
   }
   .hero-paragraph{
@@ -111,7 +111,8 @@ margin-right: 20px;
     font-weight: 500;
     font-size: 24px;
     margin-bottom: 10px;
-    color: #050505;
+    margin-left: auto;
+    color: #2a0e84;
   }
   .hero-pricing-list {
     display: flex;
@@ -182,7 +183,7 @@ margin-right: 20px;
   }
   /*End Pricing ----*/
   .text-h1{
-  color: #cdf172;
+  color: #070707;
   text-align: center;
   margin-top: 40px;
   text-transform: uppercase;
@@ -193,7 +194,7 @@ margin-right: 20px;
   }
   /*----Start Section Member--------*/
   .member{
-   background-color:#e3f493 ;
+   background-color:#cdf172 ;
    padding: 50px 0px;
   }
   .member-box{
@@ -241,6 +242,86 @@ th {
  td {
 
  }
+
+ .lable-input-aligment {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-form-name {
+  border-radius: 5px;
+  font-size: 14px;
+  width: 476px;
+  height: 30px;
+  box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.1);
+  border: #ffffff;
+}
+.input-form-email {
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 0px;
+  width: 538px;
+  border: #ffffff;
+  box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.1);
+  height: 30px;
+}
+.input-form-subject {
+  font-size: 14px;
+  border: #ffffff;
+  box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.1);
+  width: 1110px;
+  height: 30px;
+  border-radius: 5px;
+}
+.text-paragraph {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #0e0909;
+}
+.input-form-message {
+  resize: none;
+  font-size: 14px;
+  border: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.1);
+  width: 1110px;
+  height: 190px;
+}
+.form-aligment {
+  display: flex;
+  justify-content: center;
+  gap: 93px;
+}
+.contact-section {
+  margin-top: 80px;
+  padding-bottom: 40px;
+}
+.send-message {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.send-alignment {
+  margin-top: 72px;
+  display: flex;
+  justify-content: center;
+}
+/*End Contact Section*/
+.footer-section {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+background-color: #4F2B9A;
+  padding: 10px;
+}
+.buttonnn{
+  background-color: #4F2B9A;
+  margin: auto;
+  padding: auto;
+  border-radius: 20px;
+}
 
 
 
