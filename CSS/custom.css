@@ -27,7 +27,7 @@ body {
 
 
  .my-circle { 
-    background-color: rgb(221, 152, 143);
+    background-color: rgb(172, 212, 243);
     width: 100px;
     height: 100px;
     border-radius: 100px;
@@ -37,7 +37,7 @@ body {
  }
 
  .member{
-    background-color:rgb(221, 152, 143);
+    background-color:rgb(172, 212, 243);
     padding: 50px 0px;
    }
    .member-box{
